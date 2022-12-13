@@ -1,0 +1,15 @@
+COSE DA FARE, IDEE (COMPLEX NETWORKS):
+
+1) Network storico con tanti tornei e giocatori (valutare caratteristiche degree, betwenneess)
+studio di geolocalizzazione (come gli scacchi si sono diffusi geograficamente) dei tornei e frequenza
+annuale di tornei in tutto il mondo in un certo arco temporale;
+
+2) Fissare un anno, prendere tutti i tornei di quell'anno e osservare le communities
+(corrispondenza ELO - community = MODULARITY);
+confrontare i clusters;
+
+3) Network bipartito scacchisti-aperture = la moda; 
+fare questo per un certo arco temporale per vedere le aperture che presentavano delle debolezze.
+
+******************* ULTIMA PARTE ************************
+4) Decision tree (vittorie, sconfitte, ELO, aperture... = parametri di interesse -> machine learning).
