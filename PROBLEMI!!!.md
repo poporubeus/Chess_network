@@ -1,4 +1,4 @@
-### Problema
+# Problema
 
 Il problema che per ora ci sta bloccando è il seguente: abbimao creato una prima funzione che scorre all'interno di urls in diverse pagine html, bene,
 in questo modo l'idea è fornire a Python una lista di urls e lui ci entrerà e ci mostrerà in un df tutti i tornei.
@@ -8,7 +8,7 @@ Se però faccimo runnare la funzione con una lista di tornei che non hanno pagin
 lista di 1 lunga quanto il numero di tornei presenti  --> esempio: ho 4 tornei allora gli dico [1,1,1,1]) NON VA: RITORNA UN RISULTATO SBAGLIATO.
 COME MAI?
 
-# Altra cosa da capire:
+### Altra cosa da capire:
 Ho usato l'algoritmo di Lovain per realizzare la community:
 ```shell
 pip install python-louvain
