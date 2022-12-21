@@ -18,4 +18,19 @@ Chess365
 3) matplotlib.pyplot;
 4) networkx;
 5) sklearn (machine learning - decision tree);
-6) seaborn.
+6) seaborn;
+7) plotly;
+8) pyvis.
+
+### Importante:
+Assicurati di avere il kernel ipykernel così da sostituire il kernel Python3 che Jupyter ha di default
+con quello. In questo modo Jupyter utilizzerà lo stesso Python che avete installato: io uso Python3.10
+ma quello di Jupyter è il 3.8 --> non sono compatibili, pertanto i pacchetti installati con 
+Python3.10 non saranno visibili da Jupyter.
+
+## Comando per fare questo
+```shell
+pip install ipykernel
+```
+e dovrebbe andare; altrimenti guarda qua:
+" https://jonathansoma.com/course/foundations-2021/jupyter-module-not-found/ "
