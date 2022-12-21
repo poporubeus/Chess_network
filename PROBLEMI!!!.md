@@ -1,4 +1,4 @@
-###Problema
+### Problema
 
 Il problema che per ora ci sta bloccando è il seguente: abbimao creato una prima funzione che scorre all'interno di urls in diverse pagine html, bene,
 in questo modo l'idea è fornire a Python una lista di urls e lui ci entrerà e ci mostrerà in un df tutti i tornei.
