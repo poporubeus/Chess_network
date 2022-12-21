@@ -20,7 +20,8 @@ Chess365
 5) sklearn (machine learning - decision tree);
 6) seaborn;
 7) plotly;
-8) pyvis.
+8) pyvis;
+9) python-louvain.
 
 ### Importante:
 Assicurati di avere il kernel ipykernel così da sostituire il kernel Python3 che Jupyter ha di default
