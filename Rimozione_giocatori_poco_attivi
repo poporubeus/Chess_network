@@ -1,0 +1,10 @@
+def drop_entries_less_than_n(df, columns, n):
+    combined_list = df[columns].values.flatten().tolist()
+    count_series = pd.Series(combined_list).value_counts()
+    entries_to_drop = count_series[count_series < n].index
+    df = df[~df[columns].apply(lambda x: x[0] in entries_to_drop and x[1] in entries_to_drop, axis=1)]
+    return df
+    
+n = 5
+df = drop_entries_less_than_n(df, ['White', 'Black'], n)
+print(df)
