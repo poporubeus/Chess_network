@@ -1,3 +1,6 @@
+''' questo codice rimuove dal dataframe i giocatori che hanno giocato meno di n volte (come bianchi o neri ) '''
+
+
 def drop_entries_less_than_n(df, columns, n):
     combined_list = df[columns].values.flatten().tolist()
     count_series = pd.Series(combined_list).value_counts()
