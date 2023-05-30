@@ -11,3 +11,28 @@ def drop_entries_less_than_n(df, columns, n):
 n = 5
 df = drop_entries_less_than_n(df, ['White', 'Black'], n)
 print(df)
+
+
+''' questo invece è il codice che crea anche il dataframe Giocatore - Degree (oltre a rimuovere i giocatori inattivi'''
+
+import pandas as pd
+
+def drop_entries_less_than_n(df, columns, n):
+    combined_list = df[columns].values.flatten().tolist()
+    count_series = pd.Series(combined_list).value_counts()
+    count_df = pd.DataFrame({'Element': count_series.index, 'Count': count_series.values})
+    entries_to_drop = count_df[count_df['Count'] < n]['Element'].tolist()
+    df = df[~df[columns].apply(lambda x: x[0] in entries_to_drop and x[1] in entries_to_drop, axis=1)]
+    return df, count_df
+
+# Example usage
+# Create a sample dataframe
+data = {'Column1': ['A', 'A', 'B', 'C', 'C', 'C', 'D','D','L','W'],
+        'Column2': ['X', 'X', 'A', 'Z', 'Z', 'Z', 'W','D','Z','L']}
+df = pd.DataFrame(data)
+
+# Count the number of same elements in the combined list of first two columns and drop rows appearing less than 2 times
+n = 2
+df, count_df = drop_entries_less_than_n(df, ['Column1', 'Column2'], n)
+print(df)
+print(count_df)
