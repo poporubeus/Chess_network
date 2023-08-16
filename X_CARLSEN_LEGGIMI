@@ -1,0 +1,39 @@
+Ciao;
+Per la task di Carlsen io farei: 
+1) algo che confronta gli avversari nel dataset i+1 e aggiorna una funz (aggiungendo +1) se l'avversarioo contenuto nel dataset i+1 
+non è presente in tutti i dataset da 1 : i... tipo:
+
+### CON PROBABILITà 99,99% QUESTO CODICE è SBAGLIATO E NON FUNZIONANTE, MA POTREBBE SERVIRE PER PRENDERE SPUNTO
+
+def conta_new_enemy(dataset):
+  enemies = conta_avversari_carlsen(dataset)
+  return enemies
+funz = 0.0
+
+### supponiamo di avere 5 dataset, dunque si fa il confronto tra le sottoliste
+
+all_enemies = [[],[],[],[],[]]
+tot_matches = [[],[],[],[],[]]
+
+for i in range(len(dataset_list)):
+  for j in range(len(dataset_list[i]):
+    all_enemies[i].append(conta_new_enemy(dataset_list[j])
+    tot_matches[i].append(conta_new_enemy(dataset_list[j])
+
+    if all_enemies[i][j] == all_enemies[i][j+1]
+      funz += 1
+    else:
+      funz = funz
+gunz = 0
+for i in range(len(tot_matches):
+  for j in range(len(tot_matches[i]):
+    gunz +=1 (funzione che si aggiorna ogni avversario che Carlsen incontra)
+x = np.arange(1,5(num di dataset), 1)
+plt.plot(x, funz, label='New Carlsen enemy')
+plt.plot(x, gunz, label='Tot enemy')
+plt.legend()
+plt.show()
+
+### altrimenti si potrebbe fare con un array del tipo x = np.array([len(dataset_list[i], len(dataset_list)])
+  
+  
