@@ -1,1 +1,78 @@
-ciao
+import pandas as pd
+import networkx as nx
+import matplotlib.pyplot as plt
+csv_path = r"C:\Users\Utente\Desktop\datanet\chess_data_8085.csv"
+#r"C:\Users\Utente\Desktop\datanet\chess_data_2020.csv"
+df = pd.read_csv(csv_path)
+
+# Assuming your DataFrame is named df
+# Convert the "Date" column to datetime if it's not already
+df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+
+# Filter the DataFrame to keep only rows with the year 1985 in the "Date" column
+df = df[df['Date'].dt.year == 1985]
+
+# Assuming your DataFrame is named df
+# Drop rows with NaN or empty cells in "White" or "Black" columns
+df = df.dropna(subset=["White", "Black"], how="any")
+
+# voglio solo i bianchi e i neri
+df = df[["White", "Black"]]
+print(df)
+
+G = nx.Graph()
+
+# Iterate through the DataFrame rows
+for index, row in df.iterrows():
+    # Add nodes for elements in the "White" and "Black" columns
+    white_node = row["White"]
+    black_node = row["Black"]
+    G.add_node(white_node)
+    G.add_node(black_node)
+
+    # Add an edge between nodes in the same row
+    G.add_edge(white_node, black_node)
+
+# Create a layout for the graph (e.g., using the Kamada-Kawai layout)
+layout = nx.kamada_kawai_layout(G)
+
+# Draw the graph
+nx.draw(G, layout, with_labels=True, node_size=300, node_color='lightblue', font_size=10, font_color='black')
+
+
+# plt.show()
+print("here we have the betweenness")
+#ecco un dizionario con la betweenness e i nodi
+betweenness_centrality = nx.betweenness_centrality(G)
+
+# Sort nodes by betweenness centrality in descending order and take the top 20
+top_20_nodes_bc = sorted(betweenness_centrality, key=betweenness_centrality.get, reverse=True)[:20]
+
+# Print the top 20 nodes and their betweenness centrality values
+for node in top_20_nodes_bc:
+    centrality_value = betweenness_centrality[node]
+    print(f"Node: {node}, Betweenness Centrality: {centrality_value}")
+
+print("here we have the degree")
+
+degree_dict = dict(G.degree(G.nodes()))
+degree_centrality = dict(G.degree())
+
+
+# Sort the nodes by degree in descending order and take the top 20
+top_20_nodes = sorted(degree_dict, key=lambda x: degree_dict[x], reverse=True)[:20]
+
+# Print the top 20 nodes and their degrees
+for node in top_20_nodes:
+    degree = degree_dict[node]
+    print(f"Node: {node}, Degree: {degree}")
+
+# now i want the avarage values of degree and betweenness
+
+average_betweenness = sum(betweenness_centrality.values()) / len(betweenness_centrality)
+
+average_degree = sum(degree_centrality.values()) / len(degree_centrality)
+
+print(f"Average Betweenness Centrality: {average_betweenness}")
+print(f"Average Degree: {average_degree}")
+
