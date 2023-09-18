@@ -1,0 +1,101 @@
+,Rank,Name,Country,ELO,Date of birth
+1,1,"Carlsen, Magnus",NOR,2839,1990
+2,2,"Caruana, Fabiano",USA,2786,1992
+3,3,"Nakamura, Hikaru",USA,2780,1987
+4,4,"Ding, Liren",CHN,2780,1992
+5,5,"Firouzja, Alireza",FRA,2777,2003
+6,6,"Nepomniachtchi, Ian",RUS,2771,1990
+7,7,"Giri, Anish",NED,2760,1994
+8,8,Gukesh D,IND,2758,2006
+9,9,"Anand, Viswanathan",IND,2754,1969
+10,10,"So, Wesley",USA,2753,1993
+11,11,"Rapport, Richard",ROU,2752,1996
+12,12,"Karjakin, Sergey",RUS,2750,1990
+13,13,"Dominguez Perez, Leinier",USA,2745,1983
+14,14,"Radjabov, Teimour",AZE,2745,1987
+15,15,"Aronian, Levon",USA,2742,1982
+16,16,"Mamedyarov, Shakhriyar",AZE,2734,1985
+17,17,"Le, Quang Liem",VIE,2733,1991
+18,18,"Grischuk, Alexander",RUS,2732,1983
+19,19,Praggnanandhaa R,IND,2727,2005
+20,20,"Vachier-Lagrave, Maxime",FRA,2727,1990
+21,21,"Topalov, Veselin",BUL,2727,1975
+22,22,"Duda, Jan-Krzysztof",POL,2726,1998
+23,23,"Wei, Yi",CHN,2726,1999
+24,24,"Yu, Yangyi",CHN,2720,1994
+25,25,"Vitiugov, Nikita",ENG,2719,1987
+26,26,"Keymer, Vincent",GER,2717,2004
+27,27,"Vidit, Santosh Gujrathi",IND,2716,1994
+28,28,"Abdusattorov, Nodirbek",UZB,2716,2004
+29,29,Erigaisi Arjun,IND,2712,2003
+30,30,"Vallejo Pons, Francisco",ESP,2712,1982
+31,31,"Harikrishna, Pentala",IND,2711,1986
+32,32,"Dubov, Daniil",RUS,2710,1996
+33,33,"Maghsoodloo, Parham",IRI,2707,2000
+34,34,"Sjugirov, Sanan",HUN,2705,1993
+35,35,"Deac, Bogdan-Daniel",ROU,2702,2001
+36,36,"Robson, Ray",USA,2699,1994
+37,37,"Van Foreest, Jorden",NED,2699,1999
+38,38,"Shankland, Sam",USA,2698,1991
+39,39,"Sevian, Samuel",USA,2698,2000
+40,40,"Artemiev, Vladislav",RUS,2697,1998
+41,41,"Eljanov, Pavel",UKR,2695,1983
+42,42,"Wang, Hao",CHN,2694,1989
+43,43,Nihal Sarin,IND,2694,2004
+44,44,"Tomashevsky, Evgeny",RUS,2694,1987
+45,45,"Sarana, Alexey",SRB,2693,2000
+46,46,"Xiong, Jeffery",USA,2693,2000
+47,47,"Sargissian, Gabriel",ARM,2692,1983
+48,48,"Bu, Xiangzhi",CHN,2690,1985
+49,49,"Svidler, Peter",FID,2689,1976
+50,50,"Martirosyan, Haik M.",ARM,2688,2000
+51,51,"Navara, David",CZE,2688,1985
+52,52,"Tabatabaei, M. Amin",IRI,2685,2001
+53,53,"Fedoseev, Vladimir",SLO,2683,1995
+54,54,"Esipenko, Andrey",FID,2683,2002
+55,55,"Amin, Bassem",EGY,2682,1988
+56,56,"Grandelius, Nils",SWE,2681,1993
+57,57,"Oparin, Grigoriy",USA,2681,1997
+58,58,"Donchenko, Alexander",GER,2679,1998
+59,59,"Abasov, Nijat",AZE,2677,1995
+60,60,"Shevchenko, Kirill",ROU,2677,2002
+61,61,"Howell, David W L",ENG,2676,1990
+62,62,"Wojtaszek, Radoslaw",POL,2675,1987
+63,63,"Alekseenko, Kirill",AUT,2675,1997
+64,64,"Matlakov, Maxim",RUS,2674,1991
+65,65,"Kovalenko, Igor",UKR,2674,1988
+66,66,"Kasimdzhanov, Rustam",UZB,2673,1979
+67,67,"Bluebaum, Matthias",GER,2670,1997
+68,68,"Anton Guijarro, David",ESP,2669,1995
+69,69,"Niemann, Hans Moke",USA,2667,2003
+70,70,"Leko, Peter",HUN,2666,1979
+71,71,"Shirov, Alexei",ESP,2665,1972
+72,72,"Ivanchuk, Vasyl",UKR,2664,1969
+73,73,"Adams, Michael",ENG,2662,1971
+74,74,"Bacrot, Etienne",FRA,2660,1983
+75,75,"Volokitin, Andrei",UKR,2659,1986
+76,76,"Wang, Yue",CHN,2659,1987
+77,77,"Sindarov, Javokhir",UZB,2658,2005
+78,78,"Inarkiev, Ernesto",FID,2658,1985
+79,79,"Moussard, Jules",FRA,2656,1995
+80,80,"Kryvoruchko, Yuriy",UKR,2656,1986
+81,81,"Gelfand, Boris",ISR,2655,1968
+82,82,Narayanan.S.L,IND,2654,1998
+83,83,"Cheparinov, Ivan",BUL,2654,1986
+84,84,"Korobov, Anton",UKR,2652,1985
+85,85,"Predke, Alexandr",SRB,2652,1994
+86,86,"Li, Chao b",CHN,2652,1989
+87,87,"Ma, Qun",CHN,2651,1991
+88,88,"Naiditsch, Arkadij",AZE,2651,1985
+89,89,"Ni, Hua",CHN,2651,1983
+90,90,"Melkumyan, Hrant",ARM,2650,1989
+91,91,"Aravindh, Chithambaram VR.",IND,2649,1999
+92,92,"Pichot, Alan",ESP,2648,1998
+93,93,"Najer, Evgeniy",FID,2648,1977
+94,94,"Santos Latasa, Jaime",ESP,2647,1996
+95,95,"Saric, Ivan",CRO,2647,1990
+96,96,"Liang, Awonder",USA,2646,2003
+97,97,"Malakhov, Vladimir",FID,2646,1980
+98,98,"Warmerdam, Max",NED,2645,2000
+99,99,"Grigoryan, Karen H.",ARM,2643,1995
+100,100,"Fressinet, Laurent",FRA,2643,1981
